@@ -1,0 +1,33 @@
+import Image from "next/image";
+
+export default function Footer() {
+  return (
+    <footer className="border-t border-black/10 pt-14 pb-10">
+      <div className="max-w-[1180px] mx-auto px-4 sm:px-8">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-8">
+          <div>
+            <Image
+              src="/logo_transparent.png"
+              alt="RentCheck"
+              width={140}
+              height={50}
+              style={{ objectFit: "contain" }}
+            />
+            <p className="text-ink-soft text-[0.95rem] max-w-[320px] mt-3">
+              Thailand's rental fashion search, in one place. Built in public — follow along while we put it together.
+            </p>
+          </div>
+          <div className="flex gap-6 text-[0.92rem] font-semibold flex-wrap">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="no-underline text-ink-soft hover:text-ink transition-colors duration-150">Instagram</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="no-underline text-ink-soft hover:text-ink transition-colors duration-150">TikTok</a>
+            <a href="#waitlist" className="no-underline text-ink-soft hover:text-ink transition-colors duration-150">Join the waitlist</a>
+          </div>
+        </div>
+        <div className="mt-10 pt-6 border-t border-black/10 text-[0.82rem] text-ink-soft flex flex-col sm:flex-row justify-between gap-2">
+          <span>© 2026 RentCheck — coming soon to Bangkok.</span>
+          <span>We're not a rental shop. We help you find one.</span>
+        </div>
+      </div>
+    </footer>
+  );
+}
