@@ -14,13 +14,13 @@ export default function StorePreview() {
         <div className="max-w-[560px] mb-10 sm:mb-12">
           <div className="inline-flex items-center gap-2 text-[0.8rem] font-bold tracking-[0.14em] uppercase text-pink mb-[14px]">
             <span className="w-2 h-2 rounded-full bg-pink inline-block" />
-            ตัวอย่างผลการค้นหา
+            เสร็จแล้วจะเป็นยังไง?
           </div>
           <h2 className="font-fraunces mb-[14px]" style={{ fontSize: "clamp(1.7rem, 3.4vw, 2.6rem)" }}>
-            หน้าตาผลการค้นหาจะเป็นแบบนี้
+            ตัวอย่างผลการค้นหา
           </h2>
           <p className="text-ink-soft text-[1.02rem]">
-            เมื่อร้านค้าพร้อมแล้ว ทุกการค้นหาจะแสดงรายการจริง — สไตล์ ไซส์ ทำเล และราคา ไว้ด้วยกัน
+            เมื่อข้อมูลพร้อม ทุกการค้นหาจะตอบโจทย์ที่คุณต้องการมากขึ้น
           </p>
         </div>
 
@@ -63,15 +63,15 @@ export default function StorePreview() {
                 <rect x="4" y="11" width="16" height="9" rx="2" />
                 <path d="M8 11V7a4 4 0 0 1 8 0v4" />
               </svg>
-              <h3 className="font-fraunces text-[1.1rem] sm:text-[1.25rem] mb-[10px]">เรากำลังสร้างรายการร้านค้า</h3>
+              <h3 className="font-fraunces text-[1.1rem] sm:text-[1.25rem] mb-[10px]">ขอเวลาอีกนิด</h3>
               <p className="text-ink-soft text-[0.9rem] sm:text-[0.95rem] mb-[18px]">
-                เรากำลังรวบรวมร้านค้าอยู่ขณะนี้ สมัครรับการแจ้งเตือนแล้วเราจะบอกทันทีที่พร้อม
+                ตอนนี้เรากำลังรวบรวมข้อมูลร้านเช่าทั่วไทยอยู่
               </p>
               <a
                 href="#waitlist"
                 className="inline-flex w-full items-center justify-center rounded-full font-bold px-6 py-3 no-underline bg-pink hover:bg-pink-deep text-white transition-colors duration-150"
               >
-                แจ้งเตือนฉันตอนเปิดตัว
+                แจ้งเตือนฉันเมื่อพร้อมแล้ว
               </a>
             </div>
           </div>

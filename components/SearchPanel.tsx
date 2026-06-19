@@ -5,12 +5,12 @@ import { useState } from "react";
 const fields = [
   {
     id: "occasion",
-    label: "โอกาส",
+    label: "ไปงานอะไร?",
     options: ["งานแต่งงาน", "เพื่อนเจ้าสาว", "รับปริญญา", "แจ็คเก็ตฤดูหนาว", "หมั้น", "ทุกโอกาส"],
   },
   {
     id: "location",
-    label: "ทำเล",
+    label: "สะดวกแถวไหน?",
     options: ["สุขุมวิท", "ทองหล่อ", "อารีย์", "สีลม", "ทุกทำเล"],
   },
 ];
@@ -49,14 +49,14 @@ export default function SearchPanel() {
               type="submit"
               className="w-full sm:w-auto px-7 py-3 rounded-full font-bold text-[1rem] bg-ink text-bg hover:bg-plum transition-colors duration-150 border-none cursor-pointer whitespace-nowrap"
             >
-              ค้นหาร้าน
+              ลองค้นหาร้าน
             </button>
           </div>
         </form>
 
         {showMessage && (
           <div className="mt-4 px-4 py-[14px] rounded-md bg-bg-deep text-[0.92rem] text-ink">
-            <strong className="text-pink-deep">เรายังรวบรวมร้านค้าสำหรับการค้นหานี้อยู่</strong>{" "}
+            <strong className="text-pink-deep">เรายังตามหาร้านสำหรับการค้นหานี้อยู่ 💛</strong>{" "}
             ลงทะเบียนรอด้านล่าง แล้วเราจะแจ้งเตือนคุณทาง LINE ทันทีที่พร้อม
           </div>
         )}

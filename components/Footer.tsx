@@ -14,7 +14,7 @@ export default function Footer() {
               style={{ objectFit: "contain" }}
             />
             <p className="text-ink-soft text-[0.95rem] max-w-[320px] mt-3">
-              ค้นหาร้านเช่าแฟชั่นในไทย ครบในที่เดียว สร้างอย่างโปร่งใส — ติดตามได้เลย
+              หาร้านเช่าได้ง่ายขึ้นในที่เดียว
             </p>
           </div>
           <div className="flex gap-6 text-[0.92rem] font-semibold flex-wrap">
@@ -24,8 +24,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-ink/10 text-[0.82rem] text-ink-soft flex flex-col sm:flex-row justify-between gap-2">
-          <span>© 2026 RentCheck — เร็วๆ นี้</span>
-          <span>เราไม่ใช่ร้านเช่าชุด เราช่วยคุณหาร้าน</span>
+          <span>© 2026 RentCheck</span>
+          <span>เราไม่ใช่ร้านเช่า เราแค่ช่วยให้คุณหาร้านที่ใช่ได้เร็วขึ้น</span>
         </div>
       </div>
     </footer>

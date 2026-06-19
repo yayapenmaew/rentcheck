@@ -39,17 +39,17 @@ export default function Hero() {
           <div className="flex-[1.05] w-full">
             <div className="inline-flex items-center gap-2 text-[0.8rem] font-bold tracking-[0.14em] uppercase text-pink mb-[18px]">
               <span className="w-2 h-2 rounded-full bg-pink inline-block" />
-              เร็วๆ นี้
+              เร็วๆ นี้ 💛
             </div>
             <h1 className="font-fraunces mb-[22px]" style={{ fontSize: "clamp(2rem, 5vw, 3.6rem)" }}>
-              หยุดทักร้าน{" "}
+              หาชุดไปงานทั้งที{" "}
               <em className="font-fraunces text-pink" style={{ fontStyle: "italic", fontWeight: 500 }}>
-                ทีละสิบร้าน
+                ไม่ควรต้องทักร้านเป็นสิบร้าน
               </em>{" "}
-              เพื่อหาชุดเช่าสักตัว
+              กว่าจะเจอชุดที่ใช่
             </h1>
             <p className="text-[1.08rem] text-ink-soft max-w-[480px] mb-7">
-              RentCheck รวมร้านเช่าชุดแฟชั่นไว้ในที่เดียว ค้นหาตามโอกาส ไซส์ และทำเล โดยไม่ต้องเสียเวลาไถ Instagram
+              เรากำลังรวบรวมร้านเช่าชุดไว้ในที่เดียว เพื่อให้คุณหาร้านที่ตรงกับความต้องการง่ายขึ้น โดยไม่ต้องไล่ดู IG ทีละร้าน
             </p>
           </div>
 

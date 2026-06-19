@@ -20,13 +20,13 @@ export default function Nav() {
             วิธีการใช้งาน
           </a>
           <a href="#for-shops" className="no-underline text-ink-soft hover:text-ink transition-colors duration-150 hidden sm:block">
-            สำหรับร้านค้า
+            สำหรับร้านเช่า
           </a>
           <a
             href="#waitlist"
             className="inline-flex items-center justify-center rounded-full font-bold text-[0.85rem] sm:text-[0.9rem] px-4 sm:px-[22px] py-[10px] sm:py-[11px] no-underline bg-ink text-bg hover:bg-plum transition-colors duration-150 whitespace-nowrap"
           >
-            ลงทะเบียนรอ
+            แจ้งเตือนฉันเมื่อพร้อม
           </a>
         </nav>
       </div>
