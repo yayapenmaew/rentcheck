@@ -12,7 +12,10 @@
       "Bash(npm install *)",
       "Bash(npm run dev &> /tmp/rentcheck-dev.log & *)",
       "Bash(pkill -f \"next dev\")",
-      "Bash(curl -s http://localhost:3000)"
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(gh pr create --title 'Switch to Thai language and white/navy/pink theme' --body ' *)"
     ]
   }
 }

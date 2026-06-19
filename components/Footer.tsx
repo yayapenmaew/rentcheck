@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-ink/10 text-[0.82rem] text-ink-soft flex flex-col sm:flex-row justify-between gap-2">
-          <span>© 2026 RentCheck — เร็วๆ นี้ในกรุงเทพฯ</span>
+          <span>© 2026 RentCheck — เร็วๆ นี้</span>
           <span>เราไม่ใช่ร้านเช่าชุด เราช่วยคุณหาร้าน</span>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import DressIcon from "./DressIcon";
 
 const stores = [
-  { name: "Thonglor Gown House", location: "ทองหล่อ, กรุงเทพฯ", tags: ["งานแต่งงาน", "S – L"], price: "฿900 – ฿1,800 / วัน", tileStyle: { background: "#FFE3ED", color: "#FF5C8A" } },
-  { name: "Sukhumvit Silk & Lace", location: "สุขุมวิท, กรุงเทพฯ", tags: ["รับปริญญา", "XS – M"], price: "฿1,000 – ฿2,200 / วัน", tileStyle: { background: "#E4E8F8", color: "#1B2255" } },
-  { name: "Ari Vintage Closet", location: "อารีย์, กรุงเทพฯ", tags: ["เพื่อนเจ้าสาว", "S – XL"], price: "฿500 – ฿1,200 / วัน", tileStyle: { background: "#FFD0E0", color: "#E0467D" } },
-  { name: "Silom Formal Rentals", location: "สีลม, กรุงเทพฯ", tags: ["กาล่า", "M – XL"], price: "฿1,500 – ฿3,000 / วัน", tileStyle: { background: "#D2D9F3", color: "#11163C" } },
+  { name: "Thonglor Gown House", location: "ทองหล่อ", tags: ["งานแต่งงาน", "S – L"], price: "฿900 – ฿1,800 / วัน", tileStyle: { background: "#FFE3ED", color: "#FF5C8A" } },
+  { name: "Sukhumvit Silk & Lace", location: "สุขุมวิท", tags: ["รับปริญญา", "XS – M"], price: "฿1,000 – ฿2,200 / วัน", tileStyle: { background: "#E4E8F8", color: "#1B2255" } },
+  { name: "Ari Vintage Closet", location: "อารีย์", tags: ["เพื่อนเจ้าสาว", "S – XL"], price: "฿500 – ฿1,200 / วัน", tileStyle: { background: "#FFD0E0", color: "#E0467D" } },
+  { name: "Silom Formal Rentals", location: "สีลม", tags: ["กาล่า", "M – XL"], price: "฿1,500 – ฿3,000 / วัน", tileStyle: { background: "#D2D9F3", color: "#11163C" } },
 ];
 
 export default function StorePreview() {
@@ -65,7 +65,7 @@ export default function StorePreview() {
               </svg>
               <h3 className="font-fraunces text-[1.1rem] sm:text-[1.25rem] mb-[10px]">เรากำลังสร้างรายการร้านค้า</h3>
               <p className="text-ink-soft text-[0.9rem] sm:text-[0.95rem] mb-[18px]">
-                เรากำลังรวบรวมร้านค้าทั่วกรุงเทพฯ อยู่ขณะนี้ สมัครรับการแจ้งเตือนแล้วเราจะบอกทันทีที่พร้อม
+                เรากำลังรวบรวมร้านค้าอยู่ขณะนี้ สมัครรับการแจ้งเตือนแล้วเราจะบอกทันทีที่พร้อม
               </p>
               <a
                 href="#waitlist"

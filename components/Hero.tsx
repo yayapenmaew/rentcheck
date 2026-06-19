@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="flex-[1.05] w-full">
             <div className="inline-flex items-center gap-2 text-[0.8rem] font-bold tracking-[0.14em] uppercase text-pink mb-[18px]">
               <span className="w-2 h-2 rounded-full bg-pink inline-block" />
-              เร็วๆ นี้ในกรุงเทพฯ
+              เร็วๆ นี้
             </div>
             <h1 className="font-fraunces mb-[22px]" style={{ fontSize: "clamp(2rem, 5vw, 3.6rem)" }}>
               หยุดทักร้าน{" "}
@@ -49,7 +49,7 @@ export default function Hero() {
               เพื่อหาชุดเช่าสักตัว
             </h1>
             <p className="text-[1.08rem] text-ink-soft max-w-[480px] mb-7">
-              RentCheck รวมร้านเช่าชุดแฟชั่นในกรุงเทพฯ ไว้ในที่เดียว ค้นหาตามโอกาส ไซส์ และทำเล โดยไม่ต้องเสียเวลาไถ Instagram
+              RentCheck รวมร้านเช่าชุดแฟชั่นไว้ในที่เดียว ค้นหาตามโอกาส ไซส์ และทำเล โดยไม่ต้องเสียเวลาไถ Instagram
             </p>
           </div>
 
