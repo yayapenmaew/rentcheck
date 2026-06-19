@@ -5,18 +5,13 @@ import { useState } from "react";
 const fields = [
   {
     id: "occasion",
-    label: "Occasion",
-    options: ["Wedding guest", "Bridesmaid", "Graduation", "Winter Jacket", "Engagement", "Any occasion"],
+    label: "โอกาส",
+    options: ["งานแต่งงาน", "เพื่อนเจ้าสาว", "รับปริญญา", "แจ็คเก็ตฤดูหนาว", "หมั้น", "ทุกโอกาส"],
   },
-  // {
-  //   id: "size",
-  //   label: "Size",
-  //   options: ["XS", "S", "M", "L", "XL", "Plus size"],
-  // },
   {
     id: "location",
-    label: "Location",
-    options: ["Sukhumvit", "Thonglor", "Ari", "Silom", "Any area"],
+    label: "ทำเล",
+    options: ["สุขุมวิท", "ทองหล่อ", "อารีย์", "สีลม", "ทุกทำเล"],
   },
 ];
 
@@ -25,7 +20,7 @@ export default function SearchPanel() {
 
   return (
     <div className="max-w-[1180px] mx-auto px-4 sm:px-8">
-      <div className="rounded-lg border border-black/10 bg-card shadow-card p-4 sm:p-[22px] mt-10 sm:mt-14 relative z-[5]">
+      <div className="rounded-lg border border-ink/10 bg-card shadow-card p-4 sm:p-[22px] mt-10 sm:mt-14 relative z-[5]">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -36,7 +31,7 @@ export default function SearchPanel() {
           {fields.map((field, i) => (
             <div
               key={field.id}
-              className={`flex flex-col gap-1 px-4 py-3 flex-1 border-b sm:border-b-0 sm:border-r border-black/10 ${i === 0 ? "sm:pl-[10px]" : ""}`}
+              className={`flex flex-col gap-1 px-4 py-3 flex-1 border-b sm:border-b-0 sm:border-r border-ink/10 ${i === 0 ? "sm:pl-[10px]" : ""}`}
             >
               <label htmlFor={field.id} className="text-[0.72rem] font-bold uppercase tracking-[0.08em] text-ink-soft">
                 {field.label}
@@ -54,15 +49,15 @@ export default function SearchPanel() {
               type="submit"
               className="w-full sm:w-auto px-7 py-3 rounded-full font-bold text-[1rem] bg-ink text-bg hover:bg-plum transition-colors duration-150 border-none cursor-pointer whitespace-nowrap"
             >
-              Search stores
+              ค้นหาร้าน
             </button>
           </div>
         </form>
 
         {showMessage && (
           <div className="mt-4 px-4 py-[14px] rounded-md bg-bg-deep text-[0.92rem] text-ink">
-            <strong className="text-plum">We're still gathering shops for this search.</strong>{" "}
-            Join the waitlist below and we'll email or LINE you the moment results are ready.
+            <strong className="text-pink-deep">เรายังรวบรวมร้านค้าสำหรับการค้นหานี้อยู่</strong>{" "}
+            ลงทะเบียนรอด้านล่าง แล้วเราจะแจ้งเตือนคุณทาง LINE ทันทีที่พร้อม
           </div>
         )}
       </div>

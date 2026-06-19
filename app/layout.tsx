@@ -16,8 +16,8 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "RentCheck — find rental fashion in Bangkok, in one search",
-  description: "RentCheck brings Bangkok's rental fashion shops into a single search — by occasion, and location.",
+  title: "RentCheck — ค้นหาร้านเช่าชุดในกรุงเทพฯ ครบในที่เดียว",
+  description: "RentCheck รวมร้านเช่าชุดแฟชั่นในกรุงเทพฯ ไว้ในที่เดียว ค้นหาตามโอกาส ไซส์ และทำเล",
 };
 
 export default function RootLayout({

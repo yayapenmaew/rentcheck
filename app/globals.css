@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --color-line: rgba(42, 30, 40, 0.12);
+  --color-line: rgba(27, 34, 85, 0.12);
 }
 
 * {
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  background-color: #FBF5F1;
-  color: #2A1E28;
+  background-color: #FFFFFF;
+  color: #1B2255;
   font-family: var(--font-jakarta), sans-serif;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +36,7 @@ a { color: inherit; }
 button { font-family: inherit; }
 
 :focus-visible {
-  outline: 3px solid #C79A5B;
+  outline: 3px solid #FF5C8A;
   outline-offset: 3px;
 }
 

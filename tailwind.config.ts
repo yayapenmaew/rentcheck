@@ -8,15 +8,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#FBF5F1",
-        "bg-deep": "#F3E6DE",
-        ink: "#2A1E28",
-        "ink-soft": "#7C6770",
-        gold: "#C79A5B",
-        rose: "#D98A93",
-        "rose-deep": "#c97580",
-        sage: "#8FA88A",
-        plum: "#5B3A4E",
+        bg: "#FFFFFF",
+        "bg-deep": "#FBEEF3",
+        ink: "#1B2255",
+        "ink-soft": "#6E739C",
+        pink: "#FF5C8A",
+        "pink-deep": "#E0467D",
+        plum: "#11163C",
         card: "#FFFFFF",
       },
       fontFamily: {
@@ -28,7 +26,7 @@ const config: Config = {
         md: "14px",
       },
       boxShadow: {
-        card: "0 24px 60px -30px rgba(42,30,40,0.35)",
+        card: "0 24px 60px -30px rgba(27,34,85,0.18)",
       },
     },
   },

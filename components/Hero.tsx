@@ -3,31 +3,27 @@
 import { useState } from "react";
 import DressIcon from "./DressIcon";
 
-const OCCASIONS = ["Wedding guest", "Bridesmaid", "Graduation", "Winter jacket", "Halloween"];
+const OCCASIONS = ["งานแต่งงาน", "เพื่อนเจ้าสาว", "รับปริญญา", "แจ็คเก็ตฤดูหนาว", "ฮาโลวีน"];
 
 const swatches = [
   {
-    label: "Wedding guest",
-    price: "From ฿800/day",
-    tileStyle: { background: "#F4D9DC", color: "#D98A93" },
+    label: "งานแต่งงาน",
+    tileStyle: { background: "#FFE3ED", color: "#FF5C8A" },
     posClass: "top-0 left-[6%] -rotate-[7deg] z-[2]",
   },
   {
-    label: "Graduation gown",
-    price: "From ฿1,200/day",
-    tileStyle: { background: "#F1E2C8", color: "#C79A5B" },
+    label: "รับปริญญา",
+    tileStyle: { background: "#E4E8F8", color: "#1B2255" },
     posClass: "top-[6%] right-0 rotate-[5deg] z-[1]",
   },
   {
-    label: "Bridesmaid",
-    price: "From ฿600/day",
-    tileStyle: { background: "#E2EBDF", color: "#8FA88A" },
+    label: "เพื่อนเจ้าสาว",
+    tileStyle: { background: "#FFD0E0", color: "#E0467D" },
     posClass: "bottom-[10%] left-0 -rotate-[4deg] z-[1]",
   },
   {
-    label: "Winter jacket",
-    price: "From ฿1,500/day",
-    tileStyle: { background: "#E7DAE3", color: "#5B3A4E" },
+    label: "กาล่า",
+    tileStyle: { background: "#D2D9F3", color: "#11163C" },
     posClass: "bottom-0 right-[8%] rotate-[6deg] z-[2]",
   },
 ];
@@ -41,23 +37,23 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Left copy */}
           <div className="flex-[1.05] w-full">
-            <div className="inline-flex items-center gap-2 text-[0.8rem] font-bold tracking-[0.14em] uppercase text-gold mb-[18px]">
-              <span className="w-2 h-2 rounded-full bg-gold inline-block" />
-              Coming soon
+            <div className="inline-flex items-center gap-2 text-[0.8rem] font-bold tracking-[0.14em] uppercase text-pink mb-[18px]">
+              <span className="w-2 h-2 rounded-full bg-pink inline-block" />
+              เร็วๆ นี้ในกรุงเทพฯ
             </div>
             <h1 className="font-fraunces mb-[22px]" style={{ fontSize: "clamp(2rem, 5vw, 3.6rem)" }}>
-              Stop messaging{" "}
-              <em className="font-fraunces text-rose" style={{ fontStyle: "italic", fontWeight: 500 }}>
-                ten different shops
+              หยุดทักร้าน{" "}
+              <em className="font-fraunces text-pink" style={{ fontStyle: "italic", fontWeight: 500 }}>
+                ทีละสิบร้าน
               </em>{" "}
-              for one dress.
+              เพื่อหาชุดเช่าสักตัว
             </h1>
             <p className="text-[1.08rem] text-ink-soft max-w-[480px] mb-7">
-              RentCheck brings Bangkok's rental fashion shops into a single search — by occasion, size, location, and budget. Find your outfit without scrolling through Instagram.
+              RentCheck รวมร้านเช่าชุดแฟชั่นในกรุงเทพฯ ไว้ในที่เดียว ค้นหาตามโอกาส ไซส์ และทำเล โดยไม่ต้องเสียเวลาไถ Instagram
             </p>
           </div>
 
-          {/* Moodboard — hidden on mobile, visible md+ */}
+          {/* Moodboard — hidden on mobile */}
           <div className="flex-[0.95] w-full hidden md:block">
             <div className="relative h-[420px]" aria-hidden="true">
               {swatches.map((s) => (
@@ -74,7 +70,7 @@ export default function Hero() {
                 </div>
               ))}
               <div className="absolute bottom-[-6px] left-[38%] hidden md:flex items-center gap-[6px] text-[0.95rem] -rotate-[3deg] text-ink-soft font-fraunces italic">
-                ✷ try a search below
+                ✷ ลองค้นหาด้านล่าง
               </div>
             </div>
           </div>
